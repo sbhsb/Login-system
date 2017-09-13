@@ -1,0 +1,75 @@
+
+*{
+	margin: 0px;
+	border: 0px;
+}
+
+body{
+	margin: 0px;
+	border: 0px;
+}
+
+#main{
+	background-image: url('markus-spiske-153926.JPG');
+	background-size: cover;
+	height: 640px;
+}
+
+h1{
+	font-size: 40px;
+}
+
+p{
+	font-size: 25px;
+}
+
+#about{
+	margin: 20px;
+}
+
+#First{
+	display: flex;
+	width: 10%;
+	flex-wrap: wrap;
+	font-size: 30px;
+	border: 2px solid black;
+	position: absolute;
+	top: 406px;
+	left: 480px;
+	justify-content: center;
+	text-decoration: none;
+	height: 60px;
+	width: 160px;
+
+}
+
+#Second{
+	display: flex;
+	width: 10%;
+	flex-wrap: wrap;
+	font-size: 30px;
+	border: 2px solid black;
+	position: absolute;
+	top: 406px;
+	left: 660px;
+	justify-content: center;
+	text-decoration: none;
+	height: 60px;
+
+}
+
+#First a:hover{
+	color: white;
+}
+
+#Second a:hover{
+	color: white;
+}
+
+.navbar navbar-inverse{
+ margin-bottom: 0px;
+}
+
+.image a:hover{
+	background-color: blue;
+}
