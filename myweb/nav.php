@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default mb0">
 <div class="container-fluid">
   <div class="navbar-header">
 	<a class="navbar-brand" href="#">MY WEBSITE</a>
@@ -19,7 +19,7 @@
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	<ul class="nav navbar-nav">
 	  <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
-	  <li><a href="#">About <span class="sr-only">(current)</span></a></li>
+	  <li><a href="about.php">About <span class="sr-only">(current)</span></a></li>
 	  <li><a href="#">Contact Us</a></li>
 	</ul>
 	<ul class="nav navbar-nav navbar-right">

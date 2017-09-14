@@ -51,7 +51,6 @@ if(isset($_POST['firstname']) && isset($_POST['lastname']) && isset($_POST['user
     <head>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/animate.css@3.5.2/animate.css"/>
-
     </head>
     <body class="tc bg-navy">
         <form class="pa3 black-80 georgia bg-white center mt6 br3" style="width:450px;" action="<?php $action ?>" method="POST" enctype = "multipart/form-data">

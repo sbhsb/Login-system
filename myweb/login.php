@@ -49,6 +49,6 @@
         <input class="b mt2 ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6"  type="submit" value="Login">
         <a class="link dim dark-blue" href="forgetpassword.php">Forget Password?</a>
         </form>
-        <div class="white"><?php echo $message; ?></div>
+        <div class="white"><?php echo $message; ?></div>    
     </body>
 </html>

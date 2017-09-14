@@ -40,7 +40,7 @@
 					<div>
 						<ul class="nav navbar-nav">
 							<li><a href="" class="white">Home</a></li>
-							<li><a href="" class="white">About</a></li>
+							<li><a href="about.php" class="white">About</a></li>
 							<li><a href="" class="white">Contact Us</a></li>
 						</ul>
 						<?php if(isset($_SESSION['id']) && !empty($_SESSION['id'])){ ?>
@@ -68,7 +68,7 @@
 <div id="First"><a>Our work</a></div>
 <div id="Second"><a>About</a></div>
 </div>
-<div class="panel panel-success pa3 pa5-ns">
+<div class="panel panel-success pa3 pa5-ns col-lg-5 ml6 mr4">
   <div class="panel-heading">
     <h3 class="panel-title">About this site</h3>
   </div>
@@ -82,5 +82,20 @@
   </div>
 </div>
 
+<div class="panel panel-success pa3 pa5-ns col-lg-5 mr6 ml4">
+  <div class="panel-heading">
+    <h3 class="panel-title">Projects</h3>
+  </div>
+  <div class="panel-body">
+    
+		Login Project<br>
+		Dashboard<br>
+		Full website<br>
+		Website Management<br>
+		App devolopment<br>
+		PHP website<br>
+		ASP.net website<br>
+  </div>
+</div>
 </body>
 </html>
