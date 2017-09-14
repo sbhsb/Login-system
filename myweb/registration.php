@@ -43,7 +43,7 @@ if(isset($_POST['firstname']) && isset($_POST['lastname']) && isset($_POST['user
        $message = "fill all the field properly";
         }
 }else{
-    $message = "field is not set";
+    $message = "";
 }
 
 ?>

@@ -56,7 +56,7 @@
 						<?php } else{ ?>
 							<ul class="nav navbar-nav navbar-right">
 								<li><a href="login.php" class="white">Login</a></li>
-								<li><a href="logout.php" class="white">Logout</a></li>
+								<li><a href="registration.php" class="white">Register</a></li>
 							</ul>
 						<?php } ?>	
 					</div>
