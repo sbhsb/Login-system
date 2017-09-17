@@ -40,6 +40,7 @@ p{
 	text-decoration: none;
 	height: 60px;
 	width: 160px;
+	color: black;
 
 }
 
@@ -55,21 +56,20 @@ p{
 	justify-content: center;
 	text-decoration: none;
 	height: 60px;
+	color: black;
 
 }
 
 #First a:hover{
 	color: white;
+	text-decoration: none;
 }
 
 #Second a:hover{
 	color: white;
+	text-decoration: none;
 }
 
 .navbar navbar-inverse{
  margin-bottom: 0px;
-}
-
-.image a:hover{
-	background-color: blue;
 }

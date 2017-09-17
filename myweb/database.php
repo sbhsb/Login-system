@@ -5,12 +5,20 @@
     $password = '';
    // $database = 'user_registration';
 
-   try{
-    $conn = new PDO ( $host , $username , $password);
-    $conn-> setAttribute( PDO::ATTR_ERRMODE , PDO::ERRMODE_EXCEPTION);
-    }catch(PDOException $e){
-        echo "connection faild".$e->getMessage();
-     }
+   $connect = mysqli_connect("localhost","root","");
+   $query = "CREATE DATABASE IF NOT EXISTS user_registration";
+   if($connect->query($query)){
     
+        $conn = new PDO ( $host , $username , $password);
+    
+        $scema = "CREATE TABLE registration_table(id INT(11) AUTO_INCREMENT PRIMARY KEY NOT NULL, first_name VARCHAR(50) NOT NULL, last_name VARCHAR(30) NOT NULL, user_name VARCHAR(30) NOT NULL, email VARCHAR(50) NOT NULL, password VARCHAR(50) NOT NULL, file VARCHAR(100) NOT NULL)"; 
+        $conn->query($scema);
+            
+        
 
+   }else{
+        $conn = new PDO ( $host , $username , $password);
+          
+   }
+    
 ?>
