@@ -17,7 +17,7 @@
         
 
    }else{
-        $conn = new PDO ( $host , $username , $password);
+        echo "error in creating database";
           
    }
     

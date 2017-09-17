@@ -20,7 +20,7 @@
 	<ul class="nav navbar-nav">
 	  <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
 	  <li><a href="about.php">About <span class="sr-only">(current)</span></a></li>
-	  <li><a href="#">Contact Us</a></li>
+	  <li><a href="contact.php">Contact Us</a></li>
 	</ul>
 	<ul class="nav navbar-nav navbar-right">
 	  <li><a href="logout.php">Logout</a></li>

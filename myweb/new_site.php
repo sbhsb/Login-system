@@ -10,6 +10,7 @@
 					if($result->rowCount()>0){
 					$row = $result->fetch();
 					 $file_name = $row['file'];
+					 $first_name = $row['first_name'];
 					}
 				}
 			}
@@ -41,10 +42,11 @@
 						<ul class="nav navbar-nav">
 							<li><a href="" class="white">Home</a></li>
 							<li><a href="about.php" class="white">About</a></li>
-							<li><a href="" class="white">Contact Us</a></li>
+							<li><a href="contact.php" class="white">Contact Us</a></li>
 						</ul>
 						<?php if(isset($_SESSION['id']) && !empty($_SESSION['id'])){ ?>
 							<ul class="nav navbar-nav navbar-right">
+								<li style="margin-top:15px;"class="mr3 white"><?php echo $first_name  ?></li>
 								<li class="hover"><a style="padding:0px; margine:0px;" class="w3 h3 w3-ns h3-ns br-100 mt1 mb0" href="user.php"><img class="w3 h3 w3-ns h3-ns br-100 mt1 mb0 mr2" src="files/<?php echo $file_name?>"></a></li>
 								<li><a href="logout.php" class="white">Logout</a></li>
 							</ul>
